@@ -25,3 +25,4 @@ THEN I exit the application, and the HTML is generated
 # Walkthrough Video Link
 
 # Github Link
+https://github.com/gsalma99/Profile-genorator
