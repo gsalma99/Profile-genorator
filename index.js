@@ -22,6 +22,9 @@ function main() {
       managerEmail,
       managerOfficeNumber
     );
+    team.push(manager)
+
+    createTeam();
   });
 }
 
@@ -77,6 +80,7 @@ function createEngineer() {
 }
 
 function createIntern() {
+  console.log("hello")
   return inquirer.prompt([
     {
       type: "input",
@@ -106,7 +110,8 @@ function createTeam() {
     .prompt([
       {
         type: "list",
-        name: "Which type of team member would you like to add?",
+        name: "teamMemberChoice",
+        message: "Which type of team member would you like to add?",
         choices: ["Intern", "Engineer", "I have finished my team!"],
       },
     ])

@@ -15,8 +15,9 @@ test("Can set Intern object_id in Intern object", () => {
   expect(intern.employee_id).toBe(10);
 });
 
-test("Can set email in intern object", () => {
+test("Can set email in employee object", () => {
   const intern = new Intern("Salma", 10, "salma@gmail.com");
+  console.log(intern.email);
   expect(intern.email).toBe("salma@gmail.com");
 });
 

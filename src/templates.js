@@ -1,4 +1,4 @@
-const internTemplate = engineer => {
+const internTemplate = intern => {
     const name = intern.name;
     const id = intern.employee_id;
     const email = intern.email;
@@ -20,17 +20,17 @@ const engineerTemplate = engineer => {
     const name = engineer. name;
     const id = engineer.employee_id;
     const email = engineer.email;
-    const github = engineer.getGitHub();
+    const github = engineer.getGithub();
     const role = engineer.getRole();
 
     return `
 
     <h2>${role.toUpperCase()}</h2>
-    <div>Enineer Name: ${name}</div>
-    <div>Enineer Id: ${id}</div>
-    <div>Enineer Email: ${email}</div>
-    <div>Enineer Github: ${github}</div>
-    <div>Enineer Role: ${role}</div>
+    <div>Engineer Name: ${name}</div>
+    <div>Engineer Id: ${id}</div>
+    <div>Engineer Email: ${email}</div>
+    <div>Enigneer Github: ${github}</div>
+    <div>Engineer Role: ${role}</div>
 `
 }
 const managerTemplate = manager => {
@@ -46,7 +46,7 @@ const managerTemplate = manager => {
     <div>Manager Name: ${name}</div>
     <div>Manager Id: ${id}</div>
     <div>Manager Email: ${email}</div>
-    <div>Manager Number: ${officeNumber}</div>
+    <div>Manager Number: ${OfficeNumber}</div>
     <div>Manager Role: ${role}</div>
 `
 
