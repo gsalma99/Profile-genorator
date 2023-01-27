@@ -39,17 +39,17 @@ function createManager() {
     {
       type: "input",
       name: "managerID",
-      messages: "what is the manager's id?",
+      message: "what is the id of the Manager?",
     },
     {
       type: "input",
       name: "managerEmail",
-      messages: "what is the manager's email?",
+      messages: "What is the address of the manager?",
     },
     {
       type: "input",
       name: "managerOfficeNumber",
-      messages: "what is the manager's office number?",
+      messages: "what is the office number of the manager?",
     },
   ]);
 }
@@ -59,22 +59,22 @@ function createEngineer() {
     {
       type: "input",
       name: "engineerrName",
-      message: "What is the Engineer's name?",
+      message: "What is the name of the Engineer?",
     },
     {
       type: "input",
       name: "engineerID",
-      message: "What is the Engineer's id?",
+      message: "What is the Id of the Engineer?",
     },
     {
       type: "input",
       name: "engineerEmail",
-      message: "What is the Engineer's email?",
+      message: "What is the address of the Engineer?",
     },
     {
       type: "input",
       name: "Github",
-      message: "What is the Engineer's github??",
+      message: "What is the Engineer's github username??",
     },
   ]);
 }
@@ -85,22 +85,22 @@ function createIntern() {
     {
       type: "input",
       name: "internName",
-      message: "What is the Intern's name?",
+      message: "What is the name of the Intern?",
     },
     {
       type: "input",
       name: "internID",
-      message: "What is the Intern's id?",
+      message: "What is the ID of the Intern?",
     },
     {
       type: "input",
       name: "internEmail",
-      message: "What is the Intern's email??",
+      message: "What is the address of the Intern??",
     },
     {
       type: "input",
       name: "School",
-      message: "What is the Intern's school?",
+      message: "What school is the intern at?",
     },
   ]);
 }
@@ -112,7 +112,7 @@ function createTeam() {
         type: "list",
         name: "teamMemberChoice",
         message: "Which type of team member would you like to add?",
-        choices: ["Intern", "Engineer", "I have finished my team!"],
+        choices: ["Intern", "Engineer", "I have completed my team!"],
       },
     ])
     .then((answer) => {
